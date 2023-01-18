@@ -1,0 +1,96 @@
+#page-header{
+    text-align: center;
+    margin: 0px 2px; 
+    font-family: "Verdana";
+}
+
+body{
+    background-color:#2c3338;
+    font-size: 1.2rem;
+    min-height: 100vh;
+    margin: 0;
+    font-weight: 700;
+    font-family: 'open sans',sans-serif;
+}
+
+
+nav{
+    position: sticky;
+    text-align: center;
+    background-color: #333538;
+    padding: 20px 0px;
+    top: 0px;
+    z-index: 2;
+    overflow: hidden;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 100px 10px;
+    font-weight: 200;
+}
+
+nav a:hover{
+    background-color: green;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 40px;
+}               
+
+.form-field{
+    display: flex;
+    width: 100%;
+    margin: 7px 0px;
+    
+}
+
+.button-field{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+
+input{
+    background-color: #3b4148;
+    padding: 10px;
+    border-radius: 0.25rem;
+    border-width: 0px;
+    font-size: 1.25rem;    
+    width: 100%
+}
+
+input[type="submit"]{
+    font-family: 'open sans',sans-serif;
+    margin: 5px;
+    background-color: #ea4c88;
+    color: #eee;  
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+
+input[type="submit"]:hover{
+    background-color: rgba(234, 76, 136, 0.7);
+}
+#not-member{
+    margin: 2px; 
+    font-weight: bold;
+}
+
+#sign-up{
+    margin-top: 0px;
+    color: whitesmoke;
+    font-weight: 300;
+}
+
